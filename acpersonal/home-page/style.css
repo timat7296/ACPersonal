@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Krona One", sans-serif;
+}
+
+.app {
+    background-image: url(image/group4.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #363636;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    position: relative;
+    background-size: contain;
+}
+
+
+header {
+    z-index: 50;
+    background-color: #2e2c2c00;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row;
+    padding: 30px;
+
+
+}
+
+.principal {
+    background-color: #2e2c2c00;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.info {
+    display: flex;
+    z-index: 50;
+    width: 700px;
+    height: 100%;
+    padding: 100px;
+    margin-left: 200px;
+
+}
+
+.imagem {
+
+    width: 50%;
+    height: 100%;
+}
+
+
+li,
+h2 {
+    color: orange;
+    list-style: none;
+}
+
+
+
+h1 {
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-self: flex-start;
+}
+
+p {
+    color: #d6caca;
+}
+
+button {
+    background-color: orange;
+    border-color: #1e1e1e00;
+    border-radius: 10px;
+    width: 120px;
+    height: 80px;
+    margin-top: 50px;
+
+}
+
+li>a {
+    text-decoration: none;
+    color: orange;
+    padding: 10px;
+    font-size: 25px;
+
+
+}
+
+li>a:hover {
+    background-color: #ffa500;
+    padding: 10px;
+    border-radius: 10px;
+    color: #2e2c2c;
+
+}
+
+.listra {
+    position: absolute;
+    height: 100%;
+    left: 0;
+}
+
+
+.insta {
+    width: 75px;
+    height: 75px;
+    position: relative;
+    margin: 90px;
+    background-color: #363636
+}
